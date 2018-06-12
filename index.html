@@ -157,8 +157,8 @@
                 <div class="col-10 mx-auto text-center">
                     <h1 class="display-5 text-uppercase m-5 text-white">Contact us now</h1>
                     <form action="#" class="form-inline d-flex justify-content-center">
-                 
-                            <input type="text" class="form-control w-50 mr-3 contact-input" placeholder="Email">
+
+                        <input type="text" class="form-control w-50 mr-3 contact-input" placeholder="Email">
 
                         <button class="btn btn-outline-danger m-3 emailBtn" type="button">Submit</button>
                     </form>
@@ -169,28 +169,428 @@
 
 
     <!--END CONTACT SECTION-->
-
+    <!--PROJECT SECTION-->
     <section id="projects">
         <div class="container-fluid">
-                <div class="row mb-5 ">
-                        <div class="col d-flex flex-row-reverse ">
-                            <i class="fa fa-pencil ml-4" aria-hidden="true"></i>
-                            <div class="inner-text mr-2">
-                                <h2 class="text-capitalized">Projects</h2>
-                                <h5 class="text-muted">Lorem ipsum dolor sit amet.</h5>
+            <div class="row mb-5 ">
+                <div class="col d-flex flex-row-reverse ">
+                    <i class="fa fa-pencil ml-4" aria-hidden="true"></i>
+                    <div class="inner-text mr-2">
+                        <h2 class="text-capitalized">Projects</h2>
+                        <h5 class="text-muted">Lorem ipsum dolor sit amet.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!--BTN GROUPS-->
+            <div class="row">
+                <div class="col d-flex flex-wrap work-button-group">
+                    <div class="btn-group" role="group">
+                        <button class="btn mr-2 project-btns" data-filter="*" type="button">All</button>
+                        <button class="btn mr-2 project-btns" data-filter=".web-design" type="button">Web Designs</button>
+                        <button class="btn mr-2 project-btns" data-filter=".web-apps" type="button">Web Apps</button>
+                        <button class="btn mr-2 project-btns" data-filter=".game-design" type="button">Game Design</button>
+                    </div>
+                </div>
+            </div>
+            <!--END BTN GROUPS-->
+            <!--IMG GRID SETUP ISOTOPE-->
+            <div class="row work-projects">
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 web-design">
+                    <img src="images/web-design-1.jpg" alt="web-design-1 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 web-apps">
+                    <img src="images/web-apps-1.jpg" alt="web-apps-1 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 game-design">
+                    <img src="images/game-design-1.jpg" alt="game-design-1 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 web-design">
+                    <img src="images/web-design-2.jpg" alt="web-design-2 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 web-apps">
+                    <img src="images/web-apps-2.jpg" alt="web-apps-2 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 game-design">
+                    <img src="images/game-design-2.jpg" alt="web-design-2 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 web-design">
+                    <img src="images/web-design-3.jpg" alt="web-design-3 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 web-apps">
+                    <img src="images/web-apps-3.jpg" alt="web-design-3 photo" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-4 my-3 game-design">
+                    <img src="images/game-design-3.jpg" alt="game-design-3 photo" class="img-fluid img-thumbnail">
+                </div>
+
+            </div>
+            <!--END OF IMG GRID -->
+        </div>
+    </section>
+
+    <!--END OF PROJECTS-->
+    <!-- ABOUT US -->
+    <section id="about-us" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex my-4">
+                    <i class="fa fa-user mr-4 text-danger" aria-hidden="true"></i>
+                    <div class="inner-text ml-2">
+                        <h2 class="text-capitalized text-white">About us</h2>
+                        <h5 class="text-muted">Lorem ipsum dolor sit amet.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 my-5">
+                    <div class="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header bg-danger" id="headingOne">
+                                <h5 class="text-uppercase  mb-0 text-center text-white">
+                                    <a href="#collapseOne" data-target="#collapseOne" data-toggle="collapse" class="text-uppercase text-white">
+                                        <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i> press here for more info</a>
+                                </h5>
+                            </div>
+                            <div class="collapse show" id="collapseOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptas excepturi impedit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-danger" id="headingTwo">
+                                <h5 class="text-center text-white">
+                                    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                                    <a href="#collapseTwo" data-target="#collapseTwo" data-toggle="collapse" class="text-uppercase text-white">press here for more info</a>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapseTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptas excepturi impedit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-danger" id="headingThree">
+                                <h5 class="text-center text-white">
+                                    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                                    <a href="#collapseThree" data-target="#collapseThree" data-toggle="collapse" class="text-uppercase text-white">press here for more info</a>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="collapseThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam voluptas excepturi impedit.
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="images/main-banner.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
         </div>
     </section>
+    <!-- END ABOUT US -->
+
+    <!--CURRENT PROJECTS-->
+    <section id="current-projects">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="ml-5 col d-flex my-4">
+                    <i class="fa fa-user mr-4 text-danger" aria-hidden="true"></i>
+                    <div class="inner-text ml-2">
+                        <h2 class="text-capitalized text-dark">Current projects</h2>
+                        <h5 class="text-muted">Lorem ipsum dolor sit amet.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/web-design-1.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/web-design-3.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/game-design-3.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/web-apps-1.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/web-design-3.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/web-design-1.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/game-design-3.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 no-padding">
+                    <div class="img-container">
+                        <img src="images/web-apps-1.jpg" alt="" class="img-fluid">
+                        <div class="socials d-flex justify-content-between">
+                            <i class="fa fa-facebook    fa-2x text-danger"></i>
+                            <i class="fa fa-twitch    fa-2x text-danger"></i>
+                            <i class="fa fa-youtube    fa-2x text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--END OF CURRENT PROJECTS-->
+    <!--NUMBERS -->
+    <section id="numbers" class="p-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 text-white text-uppercase text-center my-2">
+                    <p>
+                        <i class="fa fa-user-o fa-3x" aria-hidden="true"></i>
+
+                    </p>
+                    <span class='numscroller my-3 numbers-num' data-min='1' data-max='1000' data-delay='5' data-increment='10'>1000</span>
+                    <h4 class="my-2">Users</h4>
+                </div>
+                <div class="col-sm-6 col-md-3 text-white text-uppercase text-center my-2">
+                    <p>
+                        <i class="fa fa-university fa-3x" aria-hidden="true"></i>
+
+                    </p>
+                    <span class='numscroller my-3 numbers-num' data-min='1' data-max='1000' data-delay='5' data-increment='10'>1000</span>
+                    <h4 class="my-2">Users</h4>
+                </div>
+                <div class="col-sm-6 col-md-3 text-white text-uppercase text-center my-2">
+                    <p>
+                        <i class="fa fa-address-book fa-3x" aria-hidden="true"></i>
+
+                    </p>
+                    <span class='numscroller my-3 numbers-num' data-min='1' data-max='1000' data-delay='5' data-increment='10'>1000</span>
+                    <h4 class="my-2">Users</h4>
+                </div>
+                <div class="col-sm-6 col-md-3 text-white text-uppercase text-center">
+                    <p>
+                        <i class="fa fa-ambulance fa-3x" aria-hidden="true"></i>
+
+                    </p>
+                    <span class='numscroller my-3 numbers-num' data-min='1' data-max='1000' data-delay='5' data-increment='10'>1000</span>
+                    <h4 class="my-2">Users</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END OF NUMBERS -->
+    <!--TEAM-->
+    <section id="team" class="p-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col d-flex my-5">
+                    <i class="fa fa-users mr-4" aria-hidden="true"></i>
+                    <div class="inner-text">
+                        <h2 class="text-capitalized">Services we provide</h2>
+                        <h5 class="text-muted">Lorem ipsum dolor sit amet.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center">
+                        <img src="images/team-1.jpg" alt="" width="150" class="img-fluid rounded-circle mx-auto ">
+                        <div class="card-body ">
+                            <h1>Alfred</h1>
+                            <h3>Developer</h3>
+                            <hr class="bg-danger ">
+                            <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem repudiandae velit!</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center ">
+                            <i class="text-danger fa fa-facebook fa-2x "></i>
+                            <i class="text-danger fa fa-twitch fa-2x "></i>
+                            <i class="text-danger fa fa-youtube fa-2x "></i>
+                            <i class="text-danger fa fa-twitter fa-2x "></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center">
+                        <img src="images/team-2.jpg" alt="" width="150" class="img-fluid rounded-circle mx-auto ">
+                        <div class="card-body ">
+                            <h1>Alfred</h1>
+                            <h3>Developer</h3>
+                            <hr class="bg-danger ">
+                            <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem repudiandae velit!</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center ">
+                            <i class="text-danger fa fa-facebook fa-2x "></i>
+                            <i class="text-danger fa fa-twitch fa-2x "></i>
+                            <i class="text-danger fa fa-youtube fa-2x "></i>
+                            <i class="text-danger fa fa-twitter fa-2x "></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center">
+                        <img src="images/team-3.jpg" alt="" width="150" class="img-fluid rounded-circle mx-auto ">
+                        <div class="card-body ">
+                            <h1>Alfred</h1>
+                            <h3>Developer</h3>
+                            <hr class="bg-danger ">
+                            <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem repudiandae velit!</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center ">
+                            <i class="text-danger fa fa-facebook fa-2x "></i>
+                            <i class="text-danger fa fa-twitch fa-2x "></i>
+                            <i class="text-danger fa fa-youtube fa-2x "></i>
+                            <i class="text-danger fa fa-twitter fa-2x "></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card text-center">
+                        <img src="images/team-4.jpg" alt="" width="150" class="img-fluid rounded-circle mx-auto ">
+                        <div class="card-body ">
+                            <h1>Alfred</h1>
+                            <h3>Developer</h3>
+                            <hr class="bg-danger ">
+                            <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem repudiandae velit!</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center ">
+                            <i class="text-danger fa fa-facebook fa-2x "></i>
+                            <i class="text-danger fa fa-twitch fa-2x "></i>
+                            <i class="text-danger fa fa-youtube fa-2x "></i>
+                            <i class="text-danger fa fa-twitter fa-2x "></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--END OF TEAM -->
+    <!--PROGRESS SECTION -->
+    <div id="progress" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="inner-text my-2 d-flex justify-content-between text-white">
+                        <h2>HTML</h2>
+                        <h2>70%</h2>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar w-75 bg-danger"></div>
+                    </div>
+                    <div class="inner-text my-2 d-flex justify-content-between text-white">
+                        <h2>CSS</h2>
+                        <h2>70%</h2>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar w-75 bg-danger"></div>
+                    </div>
+                    <div class="inner-text my-2 d-flex justify-content-between text-white">
+                        <h2>JAVASCRIPT</h2>
+                        <h2>70%</h2>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar w-75 bg-danger"></div>
+                    </div>
+                    <div class="inner-text my-2 d-flex justify-content-between text-white">
+                        <h2>VUE JS</h2>
+                        <h2>70%</h2>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar w-75 bg-danger"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--END PROGRESS SECTION -->
+    <!--PRICES  SECTION -->
+
+    <div id="prices" class="p-5">
+        <div class="container">
+            <div class="ml-5 col d-flex my-4">
+                <i class="fa fa-money mr-4 text-danger" aria-hidden="true"></i>
+                <div class="inner-text ml-2">
+                    <h2 class="text-capitalized text-dark">Current projects</h2>
+                    <h5 class="text-muted">Lorem ipsum dolor sit amet.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js "></script>
+    <script src="js/isotope.js "></script>
+    <script src="js/numscroller-1.0.js "></script>
 </body>
 
 </html>

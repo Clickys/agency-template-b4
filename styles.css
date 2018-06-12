@@ -30,7 +30,7 @@
     color: #fff;
     font-size: 1.3em;
     transition-property: background-color;
-    transition-duration: .4s;
+    transition-duration: 0.4s;
 }
 
 #topMenuLinks a:hover {
@@ -42,8 +42,11 @@
 /* MAIN BANNER */
 
 #main-banner,
-#contact {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/main-banner.jpg);
+#contact,
+#about-us,
+#progress {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(images/main-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -51,7 +54,7 @@
 }
 
 #main-banner::after {
-    content: "";
+    content: '';
     background-color: var(--primary-color);
     position: absolute;
     width: 100%;
@@ -68,7 +71,7 @@
 }
 
 .list-inline-item {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     font-size: 2em;
     padding: 5px 20px;
@@ -86,19 +89,16 @@
 }
 
 #services .inner-text {
-    border-left: 3px solid rgba(0, 0, 0, .5);
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
 }
 
-/*Main ICONS */
-
-
 /*SERVICES */
-
+/*Main ICONS */
 #services .main-icons .fa {
     font-size: 60px;
     background-color: orangered;
     color: #fff;
-   
+
     padding: 60px;
 }
 
@@ -111,16 +111,17 @@
 }
 
 #services .icon-3 {
-    clip-path: polygon(0 0, 100% 0, 100% 100%,0% 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
 }
 #services .icon-4 {
-    clip-path: polygon(0 0, 60% 0, 80% 100%,0% 80%);
+    clip-path: polygon(0 0, 60% 0, 80% 100%, 0% 80%);
 }
 
 /* END OF SERVICES */
 
+/* CONTACT SECTION */
 #contact {
-   clip-path: polygon(0 0, 100% 0, 100% 80%,0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 .contact-input {
     border: 0;
@@ -131,17 +132,119 @@
 
 .emailBtn {
     font-size: 2.5em;
-
 }
 
+/* CONTACT SECTION END */
 
-/* */
+/* PROJECT SECTION*/
 #projects .col .fa {
     font-size: 4em;
     color: orangered;
 }
 
 #projects .inner-text {
-    border-right: 3px solid rgba(0, 0, 0, .5);
+    border-right: 3px solid rgba(0, 0, 0, 0.5);
+    padding: 6px 15px;
+}
+
+#projects .project-btns {
+    padding: 15px;
+    font-size: 1.3em;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: all 0.4s;
+}
+
+#projects .project-btns:hover {
+    background-color: orangered;
+}
+
+/* ABOUT US */
+
+#about-us .col .fa {
+    font-size: 4em;
+    color: orangered;
+}
+
+#about-us .inner-text {
+    border-left: 3px solid #fff;
+    padding: 6px 15px;
+}
+
+#about-us {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+/* CURRENT PROJECTS*/
+#current-projects .col .fa {
+    font-size: 4em;
+    color: orangered;
+}
+
+#current-projects .inner-text {
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
+    padding: 6px 15px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.socials {
+    width: 100%;
+    position: absolute;
+    bottom: -10em;
+    padding: 40px 0;
+    transition: bottom 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-container:hover .socials {
+    bottom: 0;
+}
+
+/* NUMBERS SECTION*/
+
+#numbers .numbers-num {
+    font-size: 2em;
+}
+
+/*  TEAM */
+#team .col .fa {
+    font-size: 4em;
+    color: orangered;
+}
+
+#team .inner-text {
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
+    padding: 6px 15px;
+}
+
+/* TEAM */
+
+#team .card img {
+    margin-top: -50px;
+}
+
+/* PROGRESS */
+#progress {
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+/* PRICES */
+
+#prices .col .fa {
+    font-size: 4em;
+    color: orangered;
+}
+
+#prices .inner-text {
+    border-left: 3px solid rgba(0, 0, 0, 0.5);
     padding: 6px 15px;
 }
