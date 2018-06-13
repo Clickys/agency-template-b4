@@ -44,7 +44,8 @@
 #main-banner,
 #contact,
 #about-us,
-#progress {
+#progress,
+#customers {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(images/main-banner.jpg);
     background-size: cover;
@@ -247,4 +248,52 @@
 #prices .inner-text {
     border-left: 3px solid rgba(0, 0, 0, 0.5);
     padding: 6px 15px;
+}
+
+/* Price Monthly Plan*/
+
+.prices-body {
+    font-size: .8em;
+
+}
+
+.card-text {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 10px;
+    position: relative;
+    
+
+}
+
+.money-sign {
+    font-size: 20px;
+}
+.money-number {
+    font-size: 50px;
+
+}
+
+.money-end {
+    font-size:  20px;
+}
+.card-text::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--primary-color);
+}
+.price-btn {
+    margin-bottom: -20px;
+    z-index: 10;
+    background-color: #fff;
+    color: orangered;
+}
+
+.icon {
+    padding: 10px;
+    background-color: var(--primary-color);
 }
