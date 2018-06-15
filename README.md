@@ -1,3 +1,3 @@
 # agency-template-b4
 Simple Agency Template Inspired by udemy course Master Bootstrap 4.1 By Jogn Smilga
-![agency-website](https://media.giphy.com/media/4SZHsWa5VxSPcwuoVo/giphy.gif)
+![agency-website](https://media.giphy.com/media/xVleueVqxCBJnXGEcb/giphy.gif)
